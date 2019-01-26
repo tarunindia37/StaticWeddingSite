@@ -38,6 +38,14 @@ Contact: https://themeforest.net/user/regediter
 
 /* 1 Base CSS
 ==================================================== */
+body {
+	overflow-x:hidden;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
 .relative-z{
 	position: relative;
 	z-index: 3;
